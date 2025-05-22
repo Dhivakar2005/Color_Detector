@@ -5,7 +5,7 @@ A web-based application built with Streamlit to detect the most dominant color i
 
 ## 📂 Project Structure
 
-    Detect_Wise/
+    Color_Detector/
     │
     ├── views/                             
     │   ├── image_color_detection.py       
@@ -23,7 +23,6 @@ A web-based application built with Streamlit to detect the most dominant color i
    - Display the color's name and its hex code
 
 
-
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -34,14 +33,17 @@ A web-based application built with Streamlit to detect the most dominant color i
 ### 2. Create a Virtual Environment
     
     python -m venv cenv
-    
 
-### 3. Install Dependencies
+### 3. Activate the Environment 
+
+    .\cenv\Scripts\activate
+
+### 4. Install Dependencies
     
     pip install -r requirements.txt
 
 
-### 4. Run the App
+### 5. Run the App
 streamlit run app.py
 
 
