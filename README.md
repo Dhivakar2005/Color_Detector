@@ -12,9 +12,9 @@ A web-based application built with Streamlit to detect the most dominant color i
     │   └── web_color_detection.py
     ├── data/                             
     │    └── colors.csv
-    ├── LICENSE
+    ├── app.py
     ├── README.md
-    ├── app.py   
+    ├── LICENSE  
     └── requirements.txt             
     
 ## 🚀 Features
